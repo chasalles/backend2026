@@ -7,3 +7,42 @@ body {
 h1 {
 	color: blue;
 }
+
+.produtos{
+	display: flex;
+	gap: 20px;
+	padding: 40px;
+	justify-content: center;
+}
+
+.produto{
+	background: white;
+	padding: 20px;
+	border-radius: 10px;
+	width: 200px;
+	text-align: center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.produto img{
+	width: 100%;
+	border-radius: 8px;
+}
+
+.produto h3{
+	margin: 10px 0;
+}
+
+.produto p{
+	color: green;
+	font-weight: bold;
+}
+
+button {
+	background: #00b894;
+	color: white;
+	border: none;
+	padding: 10px;
+	border-radius: 6px;
+	cursor: pointer;
+}
